@@ -1,1 +1,3 @@
-# data-driven-segmentation-of-seasonal-movement-patterns-in-alpine-ibex
+# Seasonal movement patterns of Alpine ibex (Capra ibex) in the canton of Valais: Data-driven segmentation using combined GPS and NSD trajectories with HDBSCAN clustering
+
+Code following shortly...
