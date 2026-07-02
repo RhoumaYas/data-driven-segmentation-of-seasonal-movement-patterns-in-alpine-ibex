@@ -15,7 +15,7 @@ The system operates as a decoupled, sequential 5-stage data processing pipeline 
              ▼ (02_assign_z_values.R using swissALTI3D)
   [ 3D Geospatial Points (GPKG) ]
              │ 
-             ▼ (03_msd_classification.R)
+             ▼ (03_nsd_classification.R)
   [ Net Squared Displacement Matrix (CSV) ]
              │ 
              ▼ (04_clustering.py using HDBSCAN)
@@ -55,7 +55,7 @@ Rscript scripts/02_assign_z_values.R data/preprocessed_points.gpkg data/dem/swis
 Iterates through track segments to determine optimal baseline winter anchor location reference matrix configurations and maps matching individual time-series scale **Net Squared Displacement (NSD)** matrices.
 
 ```bash
-Rscript scripts/03_msd_classification.R data/enriched_3d_points.gpkg data/nsd_curves.csv
+Rscript scripts/03_nsd_classification.R data/enriched_3d_points.gpkg data/nsd_curves.csv
 
 ```
 
