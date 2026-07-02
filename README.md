@@ -85,7 +85,3 @@ The environment setup relies on standard geospatial processing engines:
 
 * **R Package Requirements:** `sf`, `terra`, `dplyr`, `tidyr`, `readr`, `lubridate`, `data.table`
 * **Python Environment Requirements:** `geopandas`, `pandas`, `numpy`, `hdbscan`, `scikit-learn`
-
-```
-
-```
